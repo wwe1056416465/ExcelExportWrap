@@ -1,7 +1,7 @@
 //Export2Excel.js
 /* eslint-disable */
 require('script-loader!file-saver');
-require('script-loader!../Excel/Blob');//转二进制用  这边要写你的blob的实际地址
+require('script-loader!./Blob');//转二进制用  这边要写你的blob的实际地址
 require('script-loader!xlsx/dist/xlsx.core.min');
 
 function generateArray(table) {
